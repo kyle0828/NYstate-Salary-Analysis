@@ -1,8 +1,8 @@
-# New York state Salary-Analysis
+# New York state Annual Salary Analysis
 
 **Author**: Kyle Chen - 陳證皓
 
-#### reference for NAICS: [North American Industry Classification System](https://www.osha.gov/data/sic-manual)
+#### Reference for NAICS: [North American Industry Classification System](https://www.osha.gov/data/sic-manual)
 
 ## Data Preparation (SQL - PostgreSQL)
 - Create table and import the original csv file
@@ -11,12 +11,14 @@
 ![png](img/create_table.png)
 
 - Perform data cleansing
+
 ![png](img/filter_n_drop.png)
 
 Store this data output from SQL DB to later use in python
 > nysalary.csv
 
 - Extract information from data regarding **the Average Annual Salary by County**
+
 ![png](img/avg_annual_sal.png)
 
 
